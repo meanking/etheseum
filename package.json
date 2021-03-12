@@ -1,0 +1,50 @@
+{
+  "name": "etha-protocol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "test-w": "hardhat test ./test/wallet.test.js",
+    "test-v": "hardhat test ./test/vault.test.js",
+    "test-m": "hardhat test ./test/metatx.test.js",
+    "compile": "hardhat compile",
+    "deploy": "truffle migrate --reset --network etha",
+    "deploy-main": "truffle migrate --reset --network mainnet",
+    "reset": "npm run deploy3 && npm run complete",
+    "complete": "node scripts/complete",
+    "uniswap": "node scripts/uniswap",
+    "simple": "node scripts/simple",
+    "initialize": "node scripts/initialize",
+    "enable": "truffle exec scripts/addLogic.js",
+    "disable": "truffle exec scripts/disableLogic.js",
+    "flatten-sm": "truffle-flattener contracts/SmartWallet.sol > flats/SmartWallet.sol",
+    "flatten-re": "truffle-flattener contracts/EthaRegistry.sol > flats/EthaRegistry.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@openzeppelin/contracts": "^3.3.0",
+    "@openzeppelin/contracts-upgradeable": "^3.3.0",
+    "@openzeppelin/truffle-upgrades": "^1.5.0",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "@truffle/hdwallet-provider": "^1.0.38",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "excel4node": "^1.7.2",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.1",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/hardhat-upgrades": "^1.6.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "ethers": "^5.0.26",
+    "hardhat": "^2.0.8",
+    "hardhat-gas-reporter": "^1.0.4"
+  }
+}

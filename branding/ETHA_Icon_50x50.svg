@@ -1,0 +1,19 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M0 25C0 11.1929 11.1929 0 25 0V0C38.8071 0 50 11.1929 50 25V25C50 38.8071 38.8071 50 25 50V50C11.1929 50 0 38.8071 0 25V25Z" fill="url(#paint0_linear)"/>
+<path d="M31.7902 28.2965L14.8164 20.4505V14.9585L31.7902 22.8044V28.2965Z" fill="#D2D5D8"/>
+<path d="M14.8164 36.1428L31.7902 28.2968V22.8047L14.8164 30.6507V36.1428Z" fill="#D2D5D8"/>
+<path d="M36.1964 20.4674H14.8164V14.9399H38.1554L36.1964 20.4674Z" fill="white"/>
+<path d="M31.7923 28.3048H10.5352L8.57617 22.7773H31.7923V28.3048Z" fill="white"/>
+<path d="M36.1964 36.1422H14.8164V30.6147H38.1554L36.1964 36.1422Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="59.3472" y2="33.3828" gradientUnits="userSpaceOnUse">
+<stop stop-color="#464C6E"/>
+<stop offset="1" stop-color="#272B45"/>
+</linearGradient>
+<clipPath id="clip0">
+<path d="M0 25C0 11.1929 11.1929 0 25 0V0C38.8071 0 50 11.1929 50 25V25C50 38.8071 38.8071 50 25 50V50C11.1929 50 0 38.8071 0 25V25Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>
